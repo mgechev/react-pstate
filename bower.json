@@ -1,0 +1,25 @@
+{
+  "name": "react-persistent",
+  "version": "0.0.0",
+  "authors": [
+    "mgechev <mgechev@gmail.com>"
+  ],
+  "description": "Keeps persistent state of a react application",
+  "main": "./dist/react-persistent.js",
+  "keywords": [
+    "React",
+    "persistent",
+    "state"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "react": "~0.12.2"
+  }
+}
