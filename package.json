@@ -1,5 +1,5 @@
 {
-  "name": "react-persistent",
+  "name": "react-pstate",
   "version": "0.0.0",
   "description": "",
   "main": "gulpfile.js",
