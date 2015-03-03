@@ -11,14 +11,14 @@ gulp.task('test', function () {
 
 gulp.task('copy', function () {
   'use strict';
-  return gulp.src('./lib/react-persistent.js')
+  return gulp.src('./lib/react-pstate.js')
     .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('build', ['test', 'copy'], function () {
   'use strict';
-  return gulp.src('./dist/react-peristent.js')
+  return gulp.src('./dist/react-pstate.js')
     .pipe(uglify())
-    .pipe(rename('react-persistent.min.js'))
+    .pipe(rename('react-pstate.min.js'))
     .pipe(gulp.dest('./dist'));
 });
