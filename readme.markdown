@@ -52,7 +52,7 @@ var TickLabel = React.createClass({
 React.render(TickLabel(), document.getElementById('content'));
 ```
 
-After refresh the `TickLabel` will continue ticking from the value it has before the page was refreshed.
+After refresh the `TickLabel` will continue ticking from the value it had before the page was refreshed.
 
 # License
 
