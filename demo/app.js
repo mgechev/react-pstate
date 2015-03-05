@@ -3,7 +3,7 @@ var TickLabel = React.createClass({
   componentDidMount: function () {
     'use strict';
     var self = this;
-    console.log(this);
+    this.setPId('ticker');
     this.setPStorage(this.localStorage);
     setInterval(function () {
       self.setPState({
