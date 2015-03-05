@@ -1,0 +1,29 @@
+{
+  "name": "react-pstate",
+  "version": "0.0.0",
+  "authors": [
+    "mgechev <mgechev@gmail.com>"
+  ],
+  "description": "Keeps persistent state of a react application",
+  "main": "./dist/react-pstate.js",
+  "keywords": [
+    "React",
+    "persistent",
+    "state"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": ">=0.12.2",
+    "es6-promise": ">=2.0.0"
+  },
+  "devDependencies": {
+    "react": "~0.12.2"
+  }
+}
