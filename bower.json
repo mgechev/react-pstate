@@ -1,15 +1,9 @@
 {
   "name": "react-pstate",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "homepage": "https://github.com/mgechev/react-pstate",
   "authors": [
     "mgechev <mgechev@gmail.com>"
-  ],
-  "description": "Keeps persistent state of a react application",
-  "main": "./dist/react-pstate.js",
-  "keywords": [
-    "React",
-    "persistent",
-    "state"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,10 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "react": ">=0.12.2",
-    "es6-promise": ">=2.0.0"
-  },
-  "devDependencies": {
-    "react": "~0.12.2"
+    "react": "~0.12.2",
+    "react-pstate": "~0.0.2"
   }
 }

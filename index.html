@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+  #left-ticker, #right-ticker {
+    display: inline-block;
+    width: 100px;
+  }
+  </style>
+</head>
+<body>
+<p>
+Refresh your browser to see the result of the state's persistence in the left ticker.<br>
+Click "Reset" to reset the ticker and remove the persistent state.
+</p>
+<div id="left-ticker">
+</div>
+<div id="right-ticker">
+</div>
+<script src="./bower_components/es6-promise/promise.js"></script>
+<script src="./bower_components/react/react-with-addons.js"></script>
+<script src="./bower_components/react-pstate/dist/react-pstate.js"></script>
+<script src="./src/app.js"></script>
+</body>
+</html>
