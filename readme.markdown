@@ -4,6 +4,8 @@
 
 If you want to use your own storage, just implement the interface described in the next section.
 
+[**DEMO**](https://mgechev.github.io/react-pstate/).
+
 # Storage API
 
 Each component should have an `id`. Note that you **must** provide component unique id. A good way to generate one might be to get `css` or `xquery` selector.
