@@ -2,7 +2,7 @@
   "name": "react-pstate",
   "version": "0.0.4",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "./dist/react-pstate.js",
   "repository": "https://github.com/mgechev/react-pstate",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
